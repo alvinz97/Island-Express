@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+
+#basic {
+  height: 1414px;
+  background-color: #a2a2a266;
+  border-bottom: 25px solid #244C66;
+}
+
+#showcase {
+  background-color: #D3D3D3;
+  border: 2px solid #BDBDBD;
+	border-radius: 4px;
+  width: 1100px;
+  height: 1270px;
+  position: relative;
+  top: 112px;
+  right: 30px;
+  left: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+#showcase h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.end {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 15px;
+}
+.text-area {
+  margin-left: 20px;
+}
+/*End main section*/

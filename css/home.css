@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#showcase{
+	height: 595px;
+	background: url('../img/bac.png') no-repeat 0-400px;
+	background-position: center;
+	background-size: 2297px;
+	background-clip: content-box;
+	border-bottom: 1px solid #e1fcff;
+	padding-top: 83px;
+}
+#about{
+	color: #acc1cc;
+	font-size: 20px;
+	position: relative;
+	bottom: 315px;
+	left: 675px;
+    width: 512px;
+}
+#about .islandEx{
+	position: relative;
+	right: 83px;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+#about .goal{
+	position: relative;
+	right: 40px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 22px;
+}
+/*Main*/
+.from_to {
+  list-style: none;
+}
+
+.city_to{
+	margin-top: 20px;
+	width: 340px;
+	height: 30px;
+}
+.listfrom {
+  position: relative;
+  right: 278px;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list_to {
+  position: relative;
+  left: 13px;
+  bottom: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+	background: #0277BD;
+	border: 0;
+	border-radius: 4px;
+	padding-left: 35px;
+	padding-right: 30px;
+  top: 4px;
+  position: relative;
+  left: 20px;
+	color: #000000;
+}
+section button:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+section button{
+	position: relative;
+	top: -10px;
+}
+form p {
+  position: relative;
+  left: 12px;
+}
+/*Main*/
+#booking{
+	background-color: #D3D3D3;
+	position: relative;
+	width: 380px;
+	height: 450px;
+	top: 36px;
+	left: 95px;
+	border: 2px solid #BDBDBD;
+	border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+#booking h4{
+	margin-top: 10px;
+	margin-bottom: 64px;
+	font-size: 20px;
+	text-align: center;
+}
+#booking select[type = from]{
+	margin-top: 20px;
+	width: 340px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#booking select[type = to]{
+	margin-top: 20px;
+	width: 340px;
+	height: 30px;
+
+}
+#booking input[type = date]{
+	margin-top: 20px;
+	width: 230px;
+	height: 30px;
+}
+.button_3{
+	margin-top: 50px;
+	height: 30px;
+	width: 100px;
+	background: #e8491d;
+	border: 0;
+	color: #000000;
+}
+.button_3 a{
+	text-decoration: none;
+	color: #000000;
+}
+form button:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+#populartrains{
+	height: 550px;
+	border-top:45px solid #244C66;
+	border-bottom: 25px solid #244C66;
+	background-color: #a2a2a266;
+}
+#populartrains h2{
+	text-align: center;
+	font-size: 50px;
+	color: #0e2331;
+}
+#populartrains a{
+	color: #000000;
+	font-size: 20px;
+  	text-decoration: none;
+}
+#populartrains .box{
+	position: relative;
+	left: 20px;
+  	float:left;
+  	text-align: center;
+ 	width:23%;
+  	padding:5px;
+  	padding-bottom: 10px;
+}
+#populartrains .box img{
+  	width:200px;
+}
+#populartrains .box:hover{
+   	border: 4px solid #d3d3d300;
+  	border-radius: 6px;
+}
+

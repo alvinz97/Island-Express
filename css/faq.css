@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.contact{
+  text-align: center;
+}
+.paragraph1{
+  text-align: center;
+}
+#address p {
+  margin-left: : 10px;
+}
+.list{
+	padding-left: 200px;
+	height: 950px;
+    background-color: #d3d3d3;
+		border-bottom: 25px solid #244C66;
+		position: relative;
+		top: 88px;
+		margin: -20px 0px 0px 0px;
+}
+.list1 {
+	font-size: 30px;
+}
+.list1 li {
+	margin-top: 1px;
+}
+.tag {
+	font-size: 20px;
+	color: #808080;
+}
+#section {
+	position: relative;
+	top: 35px;
+}

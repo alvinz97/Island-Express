@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#showcase{
+	height: 570px;
+	border-bottom: 25px solid #244C66;
+}
+#booking{
+	background-color: #a2a2a2a8;
+	position: relative;
+	width: 80%;
+	height: 450px;
+	top: 100px;
+	left: 10%;
+	border: 2px solid #BDBDBD;
+	border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+#booking .passenger{
+	position: relative;
+	left: 308px;
+}
+#booking .item{
+	position: relative;
+	bottom: 21px;
+	left: 550px;
+}
+
+#booking h4{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+#booking input[type = from]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 448px;
+	height: 30px;
+}
+#booking input[type = to]{
+	margin-top: 15px;
+    margin-left: 49px;
+    width: 415px;
+    height: 30px;
+
+}
+#ite{
+	display: none;
+}
+#booking input[type = date]{
+    position: absolute;
+    margin-left: 502px;
+    margin-top: -82px;
+    width: 425px;
+    height: 30px;
+}
+#booking input[type = passengers]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: 30px;
+
+}
+#booking input[type = weight]{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	width: 450px;
+	height: 30px;
+
+}
+#booking label{
+	margin-top: 20px;
+	top: -10px;
+}
+#booking label[type = to]{
+	margin-left: 465px;
+}
+#booking label[type = date]{
+	position: relative;
+    margin-left: 508px;
+    top: -97px;
+}
+#booking .amount{
+	position: relative;
+	left: 436px;
+    top: -85px;
+	font-size: 24px;
+	color: #9c0303
+}
+.button_3{
+	margin-left: 428px;
+    height: 27px;
+    width: 86px;
+	background: #e8491d;
+	border: 0;
+	color: #000000;
+}
+.button_4{
+	position: relative;
+	left: 457px;
+    bottom: 104px;
+}
+#booking .error{
+	position: relative;
+    bottom: 407px;
+    color: #9c0303;
+    font-size: 21px;	
+}
+#booking .errorlog{
+	position: relative;
+	direction: none;
+    bottom: 50px;
+    color: #9c0303;
+    font-size: 21px;	
+}
+#booking .errorCities{
+	position: relative;
+    bottom: 306px;
+    color: #b90000;
+	font-size: 13px;
+	font-style: italic;	
+}
+#booking .errorDate{
+	position: relative;
+	bottom: 161px;
+	left: 509px;
+    color: #b90000;
+	font-size: 13px;
+	font-style: italic;	
+}
+#booking .errorWeight{
+	position: relative;
+	bottom: 161px;
+	left: 8px;
+    color: #b90000;
+	font-size: 13px;
+	font-style: italic;	
+}

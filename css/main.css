@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/* CSS Document */
+.user_logo {
+	width: 50px;
+	margin: -9px -9px -10px -2px;
+}
+/*Header*/
+header{
+	background: #263238;
+	color: #ffffff;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: 3px solid #03A9F4;
+	border-radius: 10px 10px 0 0;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+    width: 97.3%;
+    left: 17px;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header h1{
+	font-size: 45px;
+}
+
+header li{
+  float:left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#03A9F4;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+header button:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+header button{
+	position: relative;
+	top: -10px;
+}
+/* Global */
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+/*SignIn button*/
+.button_1{
+	height: 40px;
+	background: #ffffff;
+	border: 2px solid #03A9F4;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+	width: auto;
+}
+/*LogIn button*/
+.button_2{
+	height: 40px;
+	background: #0277BD;
+	border: 0;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #000000;
+}
+/*LOGOUT Button*/
+form #logout {
+	height: 33px;
+	background: #0277BD;
+	border: 2px solid #03A9F4;
+	border-radius: 4px;
+	padding-left: 9px;
+	padding-right: 10px;
+	color: #000000;
+	width: auto;
+	float: right;
+}
+
+/*End of the Header*/
+
+/*Start Body*/
+body{
+	font: 15px/1.5 Roboto Regular, Helvetica,sans-serif;
+	background: url('../img/317193_01.png') no-repeat fixed center;
+	background-position: center;
+	background-size: 2608px;
+	border-radius: 10px;
+  	padding: 0 30px 30px;
+  	margin: 0;
+}
+/*End of the Body*/
+
+/*Start Footer*/
+footer{
+    	position: relative;
+	clear: both;
+	height: 128px;
+	border-top: 1px solid #e1fcff;
+	border-bottom: 42px solid #263238;
+	border-radius: 0 0 15px 15px;
+	width: 100%;
+	font-size: 13px;
+	color: #ffffff;
+	background-color: #263b45;
+    	width: auto;
+}
+#footer p{
+	/*margin-top: 47px;*/
+	margin-left: 465px;
+}
+
+#footer a{
+	position: relative;
+	top: 30px;
+	margin-left:  20px;
+	color: #ffffff;
+}
+#footer p1{
+	position: relative;
+	top: 70px;
+	right: 232px;
+	color: #ffffff;
+}
+
+footer .socialmedia img{
+	position: relative;
+	width: 20px;
+	left: 969px;
+	top: -10px;
+	margin-left: 5px;
+}
+footer .payment img{
+	position: relative;
+	width: 200px;
+	left: 980px;
+	top: 34px;
+	margin-left: 15px;
+
+}
+
+/*End of the Footer*/

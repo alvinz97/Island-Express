@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+nav ul li img {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 10px;
+	top: -15px;
+}
+#showcase{
+	height: 884px;
+	border-bottom: 25px solid #244C66;
+}
+.userdetails {
+    position: relative;
+    top: 115px;
+    background: rgba(0, 0, 0, 0.79);
+    color: #d3d3d3;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+	width: 346px;
+    height: 305px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.userdetails img{
+	position: relative;
+	margin-left: 32%;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+}
+.userdetails h2{
+	position: relative;
+	margin-left: 38%;
+	top: 10px;
+	font-size: 20px;
+}
+#userdetails p {
+	position: relative;
+	margin-left: 15%;
+	top: 10px;
+	font-size: 13px;
+}
+.today {
+    position: relative;
+    margin-left: 29%;
+    bottom: 193px;
+    background: rgba(0, 0, 0, 0.79);
+    border: 2px solid #bdbdbd;
+    color: #d3d3d3;
+    border-radius: 4px;
+	width: 690px;
+    height: 143px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.month {
+    position: relative;
+    margin-left: 29%;
+    bottom: 180px;
+    background: rgba(0, 0, 0, 0.79);
+    border: 2px solid #bdbdbd;
+    color: #d3d3d3;
+    border-radius: 4px;
+	width: 690px;
+    height: 143px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.bookingCl , .conversations {
+    background: rgba(0, 0, 0, 0.79);
+    color: #d3d3d3;
+    border: 2px solid #bdbdbd;
+    border-radius: 4px;
+    height: 326px;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    font-size: 20px;
+    text-align: center;
+}
+.bookingCl {
+    margin: -138px 8px 0px 0px;
+    width: 535px;
+}
+.conversations {
+    margin: -138px 0px 0px 0px;
+	width: 736px;
+}
+.block {
+    display: flex;
+}
+#tit1 th {
+    padding:  0px 32px 38px 56px;
+    font-size: 20px;
+    margin: 27px 15px 27px 10px;
+}
+#tit2 th {
+    padding:  5px 65px 40px 67px;
+    font-size: 20px;
+    margin: 27px 15px 27px 10px;
+}
+#value1 td {
+    padding:  0px 0px 0px 60px;
+    font-size: 20px;
+    margin: 27px 15px 27px 10px;
+}
+#value2 td {
+    padding:  0px 0px 0px 76px;
+    font-size: 20px;
+    margin: 27px 15px 27px 10px;
+}
+#view{
+    position: relative;
+    left: -109px;
+}
+table td {
+	font-size: 18px;
+}
+td {
+	padding: -1px 44px 31px 70px;
+}
+.users-caption th{
+    padding: 0px 40px 0px 39px;
+    font-size: 15px;
+}
+.scroll {
+  height: 243px;
+  overflow: scroll;
+}
+.bookingCl .scroll {
+      width: auto;
+}
+.conversations .scroll {
+    width: 735px;
+}
+table .display-details td {
+    text-align: center;
+    padding: 11px 0px 0px 0px;
+}
+.display-details td a button {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(245, 46, 56);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reply{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(108, 233, 145);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user-conversations th{
+    padding: 0px -28px 20px 25px;
+    font-size: 15px;
+}
+table .display-details-msg td {
+    padding: 11px 0px 7px 0px;
+    text-align: center;
+}
+.userdetails table {
+    padding: 2px 0px 0px 18px;
+}
+.button-links {
+    position: relative;
+    bottom: 486px;
+    left: -7px;
+    background: rgba(0, 0, 0, 0.79);
+    border: 2px solid #bdbdbd;
+    color: #d3d3d3;
+    border-radius: 4px;
+	width: 200px;
+    height: 302px;
+    float: right;
+    font-size: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.button-links table tr td a button {
+    margin: 30px 20px 14px 40px;
+    padding: 14px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

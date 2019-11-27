@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#showcase{
+	height: 570px;
+	border-bottom: 25px solid #244C66;
+}
+#aboutus {
+    background-color: #a2a2a2a8;
+    position: relative;background-color: rgba(0, 0, 0, 0.79);
+    color: #d3d3d3;
+    width: 80%;
+    height: 450px;
+    top: 100px;
+    left: 10%;
+    border: 2px solid #BDBDBD;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+#aboutus .about{
+	position: relative;
+    top: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start of main section*/
+#basic {
+  	height: 530px;
+	border-bottom: 25px solid #244C66;
+}
+#showcase {
+    position: relative;
+    padding-right: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.79);
+	color: #d3d3d3;
+    border: 2px solid #BDBDBD;
+    border-radius: 4px;
+    width: 1131px;
+    height: 356px;
+    top: 125px;
+    left: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+#data {
+	font-weight: bold;
+}
+.right {
+	float: right;
+	position: relative;
+	bottom: 80px;
+}
+table {
+	padding-top: 10px;
+	margin: 10px;
+	width: 500px;
+	border: 2px;
+}
+#left {
+	width: 300px;
+}
+#left .phone {
+	position: relative;
+	top: 38px;
+    left: 1px;
+}
+#pinfo {
+	position: relative;
+	left: 5px;
+}
+#follow_text{
+	text-align: center;
+	position: relative;
+    left: 256px;
+    top: 24px;
+}
+section .follow img{
+	position: relative;
+	left: 250px;
+	width: 20px;
+	bottom: 20px;
+	margin-left: 15px;
+	top: 5px;
+}
+.info{
+	position: relative;
+	top: 27px;
+}
+.pinfo{
+	position: relative;
+	top: 39px;
+}
+/*End of main section*/

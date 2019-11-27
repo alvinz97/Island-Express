@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+#basic {
+  	height: 500px;
+  	background-color: #a2a2a266;
+  	border-bottom: 25px solid #244C66;
+}
+
+#showcase {
+  	text-align: center;
+  	background-color: #a2a2a2a8;
+  	border: 2px solid #BDBDBD;
+	border-radius: 4px;
+  	width: 950px;
+  	height: 350px;
+  	position: relative;
+  	top: 117px;
+  	right: 30px;
+  	left: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+form ul {
+	list-style: none;
+}
+section h1 {
+	position: relative;
+	left: 35px;
+}
+.listname {
+  	float: left;
+	list-style: none;
+	font-size: 16px;
+	margin-bottom: 0px;
+	position: relative;
+	left: 158px;
+}
+.listmail {
+  	text-align: center;
+	list-style: none;
+	font-size: 16px;
+	margin: auto;
+	padding: 0px;
+	position: relative;
+	left: 26px;
+}
+.name {
+  	width: 300px;
+  	height: 30px;
+	position: relative;
+	left: 8px;
+}
+.mail {
+  	width: 300px;
+  	height: 30px;
+	position: relative;
+	left: 8px;
+}
+.textArea {
+  	width: 606px;
+  	resize: vertical;
+  	max-height: 50px;
+	position: relative;
+	left: 8px;
+}
+.texth4 {
+	position: relative;
+	right: -10px;
+}
+.sendButton, .cancelButton {
+	position: relative;
+	border: 2px solid #80dfff;
+	border-radius: 4px;
+	left: 8px;
+	padding-left: 5px;
+	margin-left: 40px;
+	width: 200px;
+}
+.inDiv {
+	text-align: center;
+}

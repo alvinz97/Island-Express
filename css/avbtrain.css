@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*Start main section*/
+.main h1 {
+  font-size: 30px;
+}
+#basic {
+  height: 512px;
+  border-bottom: 25px solid #244C66;
+}
+.from_to {
+  list-style: none;
+}
+
+.city_from, .city_to{
+  font-size: 20px;
+  width: 300px;
+  height: 40px;
+}
+.listfrom {
+  position: relative;
+  right: 278px;
+  top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list_to {
+  position: relative;
+  left: 13px;
+  bottom: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#showcase {
+  text-align: center;
+  background-color: #bdbdbd;
+  border: 2px solid #bdbdbd;
+  width: 950px;
+  height: 350px;
+  position: relative;
+  top: 110px;
+  left: 174px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+}
+.btn {
+  width: 200px;
+  height: 40px;
+	background: #0277BD;
+	border: 0;
+	border-radius: 4px;
+	padding-left: 35px;
+	padding-right: 30px;
+  top: 4px;
+  position: relative;
+  left: 20px;
+	color: #000000;
+}
+section button:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+section button{
+	position: relative;
+  top: -59px;
+  left: 282px;
+}
+form p {
+  position: relative;
+  left: 12px;
+}

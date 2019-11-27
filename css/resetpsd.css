@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li img {
+	width: 50px;
+	margin: -9px -9px -10px -2px;
+}
+/*Reset Password Section*/
+.header_text {
+    text-align: left;
+}
+.psd_section {
+    width: 100%;
+    height: auto;
+    /*background-color: rgb(64, 188, 226);*/
+}
+.psd_section2 {
+    padding: 10px 10px 2px 8px;
+}
+
+.header {
+    width: 45%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+}
+form {
+    width: 45%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.captcha_left {
+  width: 50%;
+}
+.captcha_right {
+  float: right;
+  margin: -42px -15px 0px 0px;
+}
+.captcha {
+  display: inline;
+}
+.captcha_img {
+  width: 151px;
+  height: 40px
+}
+#refresh {
+  margin: -36px 20px 0px 0px;
+  position: relative;
+  top: -15px;
+  background: #0dc719;
+}
+
+
+/*PHP error*/
+.error {
+    width: 45%;
+    margin: 0px 132px auto;
+    padding: 10px;
+    border: 1px solid #A94442;
+    color: #944442;
+    background: #F2DEDE;
+    border-radius: 5px;
+    text-align: center;
+}
